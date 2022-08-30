@@ -35,6 +35,7 @@ public class Day26_MoreStrings {
 		// using deleteCharAt () to delete 1 specific character
 		aa.deleteCharAt(5);
 		System.out.println(aa);
+		// Using replace () method to replace words or characters
 		aa.replace(0, 3, "Hi");
 		System.out.println(aa);
 		aa.insert(4, "H");
